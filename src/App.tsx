@@ -13,7 +13,7 @@ import './styles/App.css'
 
 import CursorSpotlight from './components/ui/CursorSpotlight';
 import Starfield from './components/ui/Starfield';
-import Backroom from './pages/Backroom';
+import Terminal from './pages/Terminal';
 
 function LandingPage() {
   const [activeSection, setActiveSection] = useState('#home');
@@ -23,7 +23,7 @@ function LandingPage() {
     { label: 'Home', href: '#home' },
     { label: 'About', href: '#about' },
     { label: 'Art', href: '#art' },
-    { label: 'Backroom', href: '/backroom' },
+    { label: 'Terminal', href: '/terminal' },
     { label: 'Contact', href: '#contact' }
   ];
 
@@ -125,7 +125,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="/backroom" element={<Backroom />} />
+        <Route path="/terminal" element={<Terminal />} />
       </Routes>
     </BrowserRouter>
   )
