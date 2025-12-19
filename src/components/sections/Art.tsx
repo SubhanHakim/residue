@@ -2,21 +2,21 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 // @ts-ignore
-import remnantImg from '../../assets/images/REMNANT.png';
+import remnantImg from '../../assets/images/REMNANT.webp';
 // @ts-ignore
-import residualImg from '../../assets/images/RESIDUAL.png';
+import residualImg from '../../assets/images/RESIDUAL.webp';
 // @ts-ignore
-import ascensionImg from '../../assets/images/ASCENSION.png';
+import ascensionImg from '../../assets/images/ASCENSION.webp';
 // @ts-ignore
-import driftImg from '../../assets/images/DRIFT.png';
+import driftImg from '../../assets/images/DRIFT.webp';
 // @ts-ignore
-import lumenImg from '../../assets/images/LUMEN.png';
+import lumenImg from '../../assets/images/LUMEN.webp';
 // @ts-ignore
-import recedingImg from '../../assets/images/RECEDING.png';
+import recedingImg from '../../assets/images/RECEDING.webp';
 // @ts-ignore
-import traceImg from '../../assets/images/TRACE.png';
+import traceImg from '../../assets/images/TRACE.webp';
 // @ts-ignore
-import veilImg from '../../assets/images/VEIL.png';
+import veilImg from '../../assets/images/VEIL.webp';
 
 const images = [
     remnantImg, residualImg, ascensionImg, driftImg,

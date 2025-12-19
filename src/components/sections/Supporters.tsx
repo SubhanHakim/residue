@@ -44,7 +44,6 @@ const Supporters = () => {
                     <div className="w-24 h-1 bg-white/20 rounded-full"></div>
                 </motion.div>
 
-                {/* Centering the grid items specifically since grid-cols logic justifies start by default in many cases, though justify-items-center helps, flex wrap justify-center is safer for small counts */}
                 <div className="flex flex-wrap justify-center gap-8">
                     {supporters.map((item, index) => (
                         <motion.a
