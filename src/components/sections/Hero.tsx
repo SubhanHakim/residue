@@ -37,7 +37,7 @@ const Hero = () => {
                 <div className="absolute top-1/3 right-1/4 w-96 h-96 bg-blue-500/40 rounded-full blur-[120px] mix-blend-screen animate-pulse" style={{ animationDuration: '7s' }}></div>
             </div>
 
-            <div className="max-w-4xl mx-auto space-y-8">
+            <div className="max-w-4xl mx-auto space-y-8 relative z-20">
                 <h1 ref={titleRef} className="text-5xl md:text-7xl font-bold tracking-tight text-white leading-tight font-mono">
                     RESIDUE
                 </h1>
@@ -55,15 +55,15 @@ const Hero = () => {
                     </button>
 
                     <div className="flex items-center gap-6 text-gray-400">
-                        <a href="#" className="hover:text-white transition-colors hover:scale-110 transform duration-200">
+                        <a href="https://x.com/residue_ai" target="_blank" rel="noopener noreferrer" className="p-2 hover:text-white transition-colors hover:scale-110 transform duration-200">
                             <span className="sr-only">X (Twitter)</span>
-                            <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+                            <svg className="w-6 h-6 md:w-8 md:h-8 fill-current" viewBox="0 0 24 24" aria-hidden="true">
                                 <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
                             </svg>
                         </a>
-                        <a href="#" className="hover:text-white transition-colors hover:scale-110 transform duration-200">
+                        <a href="#" className="p-2 hover:text-white transition-colors hover:scale-110 transform duration-200">
                             <span className="sr-only">DexScreener</span>
-                            <img src="/dexscreener.svg" alt="DexScreener" className="w-8 h-8" />
+                            <img src="/dexscreener.svg" alt="DexScreener" className="w-8 h-8 md:w-10 md:h-10" />
                         </a>
                     </div>
                 </div>
