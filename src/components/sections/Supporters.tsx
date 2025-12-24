@@ -3,6 +3,9 @@ import { motion } from 'framer-motion';
 import geniusImg from '../../assets/supportes/genius.webp';
 import andyImg from '../../assets/supportes/andrey.png';
 import anthrupadImg from '../../assets/supportes/anthrupad.png';
+import image from '../../assets/supportes/image.webp';
+import truth from '../../assets/supportes/truth.webp';
+
 
 const supporters = [
     {
@@ -25,6 +28,27 @@ const supporters = [
         handle: '@AndyAyrey',
         image: andyImg,
         link: 'https://x.com/andyayrey' // Placeholder
+    },
+    {
+        id: 4,
+        name: 'Gnon',
+        handle: '@Gnon',
+        image: andyImg,
+        link: 'https://x.com/GnonLabs'
+    },
+    {
+        id: 5,
+        name: 'Lowkey',
+        handle: '@Kimchi662',
+        image: image,
+        link: 'https://x.com/Truth'
+    },
+    {
+        id: 6,
+        name: 'Upward Spiral',
+        handle: '@Upward_Earth',
+        image: truth,
+        link: 'https://x.com/Upward_Earth'
     }
 ];
 
