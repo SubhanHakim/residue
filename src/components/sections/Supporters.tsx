@@ -1,10 +1,14 @@
 import { motion } from 'framer-motion';
 // @ts-ignore
 import geniusImg from '../../assets/supportes/genius.webp';
-import andyImg from '../../assets/supportes/andrey.png';
-import anthrupadImg from '../../assets/supportes/anthrupad.png';
-import image from '../../assets/supportes/image.webp';
-import truth from '../../assets/supportes/truth.webp';
+// @ts-ignore
+import andyImg from '../../assets/supportes/andy.webp';
+// @ts-ignore
+import gnonImg from '../../assets/supportes/gnon.webp';
+// @ts-ignore
+import lowkeyImg from '../../assets/supportes/image.webp';
+// @ts-ignore
+import truthImg from '../../assets/supportes/truth.webp';
 
 
 const supporters = [
@@ -12,7 +16,7 @@ const supporters = [
         id: 1,
         name: 'w̸͕͂͂a̷͔̗͐t̴̙͗e̵̬̔̕r̴̰̓̊m̵͙͖̓̽a̵̢̗̓͒r̸̲̽ķ̷͔́͝',
         handle: '@anthrupad',
-        image: anthrupadImg,
+        image: truthImg,
         link: 'https://x.com/anthrupad' // Placeholder
     },
     {
@@ -33,21 +37,21 @@ const supporters = [
         id: 4,
         name: 'Gnon',
         handle: '@Gnon',
-        image: andyImg,
+        image: gnonImg,
         link: 'https://x.com/GnonLabs'
     },
     {
         id: 5,
         name: 'Lowkey',
         handle: '@Kimchi662',
-        image: image,
+        image: lowkeyImg,
         link: 'https://x.com/Truth'
     },
     {
         id: 6,
         name: 'Upward Spiral',
         handle: '@Upward_Earth',
-        image: truth,
+        image: truthImg,
         link: 'https://x.com/Upward_Earth'
     }
 ];
