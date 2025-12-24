@@ -15,7 +15,7 @@ const Footer = () => {
                     </a>
 
                     {/* Using the same DexScreener/PumpFun icon logic as Hero but smaller */}
-                    <a href="#">
+                    <a href="https://pump.fun/coin/AwwahP6CirNFrDGZJzo1z9wom3cdn18hCQMznDr5pump">
                         <span className="sr-only">DexScreener</span>
                         <img src="/dexscreener.svg" alt="DexScreener" className="w-6 h-6 opacity-60 hover:opacity-100 transition-opacity" />
                     </a>
